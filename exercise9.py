@@ -1,0 +1,5 @@
+money=float(input("Money: "))
+interest=float(input("Interest: "))
+time=float(input("Time: "))
+total=float(money*(1+(interest/100)*time))
+print(f"Total: {total}€")
